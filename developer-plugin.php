@@ -11,7 +11,9 @@
 
  function remove_footer_admin () {
 
- echo 'Design and Developed by <a href="http://skilltouch.net" target="_blank"><b>Skill Touch</b></a> | Developer  <a href="http://www.janealam.com" target="_blank">Mahammad Jan-E-Alam</a>';
+ echo 'Design and Developed by <a href="http://skilltouch.net" target="_blank"><b>Skill Touch</b></a> | Developer  <a href="http://www.janealam.com" target="_blank"> Mahammad Jan-E-Alam</a>';
 
  }
- add_filter('admin_footer_text', 'remove_footer_admin');
+
+
+add_filter('admin_footer_text', 'remove_footer_admin');
