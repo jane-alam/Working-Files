@@ -8,3 +8,11 @@
  * Author URI: http://www.janealam.com
  * License: GPL2
  */
+
+ function remove_footer_admin () {
+
+ echo 'Fueled by <a href="http://www.wordpress.org" target="_blank">WordPress</a> | Designed by <a href="http://www.uzzz.net" target="_blank">Uzzz Productions</a> | WordPress Tutorials: <a href="http://www.wpbeginner.com" target="_blank">WPBeginner</a></p>';
+
+ }
+
+ add_filter('admin_footer_text', 'remove_footer_admin');
